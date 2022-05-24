@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Sen:wght@400;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <title>Film Catalogue</title>
+  </head>
+
+  <body>
+    <div class="navbar">
+      <div class="navbar-container">
+        <div class="logo-container"><h1 class="logo">InSync</h1></div>
+        <div class="menu-container">
+          <ul class="menu-list">
+            <li class="menu-list-item active">Home</li>
+            <li class="menu-list-item">Films</li>
+            <li class="menu-list-item">Series</li>
+            <li class="menu-list-item">Popular</li>
+            <li class="menu-list-item">Trends</li>
+          </ul>
+        </div>
+        <div class="profile-container">
+          <img
+            class="profile-picture"
+            src="/img/profile.jpg"
+            alt="profile picture"
+          />
+          <div class="profile-text-container">
+            <span class="profile-text">Profile</span>
+            <i class="fa-solid fa-caret-down"></i>
+          </div>
+          <div class="toggle">
+            <i class="fa-solid fa-moon toggle-icon"></i>
+            <i class="fa-solid fa-sun toggle-icon"></i>
+            <div class="toggle-ball"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="sidebar">
+      <i class="left-menu-icon fa-solid fa-magnifying-glass"></i>
+      <i class="left-menu-icon fa-solid fa-house-chimney"></i>
+      <i class="left-menu-icon fa-solid fa-users"></i>
+      <i class="left-menu-icon fa-solid fa-bookmark"></i>
+      <i class="left-menu-icon fa-solid fa-tv"></i>
+      <i class="left-menu-icon fa-solid fa-hourglass-start"></i>
+      <i class="left-menu-icon fa-solid fa-cart-shopping"></i>
+    </div>
+    <div class="container">
+      <div class="content-container">
+        <div
+          class="featured-content"
+          style="
+            background: linear-gradient(
+                to bottom,
+                rgba(0, 0, 0, 0),
+                rgb(20, 20, 20)
+              ),
+              url(img/f-f-2.jpg);
+          "
+        >
+          <img
+            class="featured-title"
+            src="/img/f-t-2.png"
+            alt="featured film title"
+          />
+          <p class="featured-description">
+            A noble family becomes embroiled in a war for control over the
+            galaxy's most valuable asset while its heir becomes troubled by
+            visions of a dark future.
+          </p>
+          <button class="featured-button">WATCH NOW</button>
+        </div>
+        <div class="film-list-container">
+          <h1 class="film-list-title">Harry Potter</h1>
+          <div class="film-list-wrapper">
+            <div class="film-list">
+              <div class="film-list-item">
+                <img class="film-list-item-img" src="img/hp1.jpg" alt="" />
+                <span class="film-list-item-title"
+                  >Harry Potter and the Philosopher's Stone</span
+                >
+                <p class="film-list-item-description">
+                  An orphaned boy enrolls in a school of wizardry, where he
+                  learns the truth about himself, his family and the terrible
+                  evil that haunts the magical world.
+                </p>
+                <button class="film-list-item-button">Watch</button>
+              </div>
+              <div class="film-list-item">
+                <img class="film-list-item-img" src="img/hp2.jpg" alt="" />
+                <span class="film-list-item-title"
+                  >Harry Potter and the Chamber of Secrets</span
+                >
+                <p class="film-list-item-description">
+                  An ancient prophecy seems to be coming true when a mysterious
+                  presence begins stalking the corridors of a school of magic
+                  and leaving its victims paralyzed.
+                </p>
+                <button class="film-list-item-button">Watch</button>
+              </div>
+              <div class="film-list-item">
+                <img class="film-list-item-img" src="img/hp3.jpg" alt="" />
+                <span class="film-list-item-title"
+                  >Harry Potter and the Prisoner of Azkaban</span
+                >
+                <p class="film-list-item-description">
+                  Harry Potter, Ron and Hermione return to Hogwarts School of
+                  Witchcraft and Wizardry for their third year of study, where
+                  they delve into the mystery surrounding an escaped prisoner
+                  who poses a dangerous threat to the young wizard.
+                </p>
+                <button class="film-list-item-button">Watch</button>
+              </div>
+              <div class="film-list-item">
+                <img class="film-list-item-img" src="img/hp4.jpg" alt="" />
+                <span class="film-list-item-title"
+                  >Harry Potter and the Goblet of Fire</span
+                >
+                <p class="film-list-item-description">
+                  Harry Potter finds himself competing in a hazardous tournament
+                  between rival schools of magic, but he is distracted by
+                  recurring nightmares.
+                </p>
+                <button class="film-list-item-button">Watch</button>
+              </div>
+              <div class="film-list-item">
+                <img class="film-list-item-img" src="img/hp5.jpg" alt="" />
+                <span class="film-list-item-title"
+                  >Harry Potter and the Order of the Phoenix</span
+                >
+                <p class="film-list-item-description">
+                  With their warning about Lord Voldemort's return scoffed at,
+                  Harry and Dumbledore are targeted by the Wizard authorities as
+                  an authoritarian bureaucrat slowly seizes power at Hogwarts.
+                </p>
+                <button class="film-list-item-button">Watch</button>
+              </div>
+              <div class="film-list-item">
+                <img class="film-list-item-img" src="img/hp6.jpg" alt="" />
+                <span class="film-list-item-title"
+                  >Harry Potter and the Half-Blood Prince</span
+                >
+                <p class="film-list-item-description">
+                  As Harry Potter begins his sixth year at Hogwarts, he
+                  discovers an old book marked as "the property of the
+                  Half-Blood Prince" and begins to learn more about Lord
+                  Voldemort's dark past.
+                </p>
+                <button class="film-list-item-button">Watch</button>
+              </div>
+              <div class="film-list-item">
+                <img class="film-list-item-img" src="img/hp7.jpg" alt="" />
+                <span class="film-list-item-title"
+                  >Harry Potter and the Deathly Hallows: Part 1</span
+                >
+                <p class="film-list-item-description">
+                  As Harry, Ron, and Hermione race against time and evil to
+                  destroy the Horcruxes, they uncover the existence of the three
+                  most powerful objects in the wizarding world: the Deathly
+                  Hallows.
+                </p>
+                <button class="film-list-item-button">Watch</button>
+              </div>
+              <div class="film-list-item">
+                <img class="film-list-item-img" src="img/hp7.jpg" alt="" />
+                <span class="film-list-item-title"
+                  >Harry Potter and the Deathly Hallows: Part 2</span
+                >
+                <p class="film-list-item-description">
+                  Harry, Ron, and Hermione search for Voldemort's remaining
+                  Horcruxes in their effort to destroy the Dark Lord as the
+                  final battle rages on at Hogwarts.
+                </p>
+                <button class="film-list-item-button">Watch</button>
+              </div>
+            </div>
+            <i class="fa-solid fa-chevron-right arrow"></i>
+          </div>
+        </div>
+        <div class="film-list-container">
+          <h1 class="film-list-title">Star Wars</h1>
+          <div class="film-list-wrapper">
+            <div class="film-list">
+              <div class="film-list-item">
+                <img class="film-list-item-img" src="img/sw1.jpg" alt="" />
+                <span class="film-list-item-title"> The Phantom Menace</span>
+                <p class="film-list-item-description">
+                  After a millennia, an ancient evil returns seeking revenge.
+                  Meanwhile, Jedi Knight Qui-Gon Jinn discovers Anakin
+                  Skywalker: a young slave boy unusually strong with the Force.
+                </p>
+                <button class="film-list-item-button">Watch</button>
+              </div>
+              <div class="film-list-item">
+                <img class="film-list-item-img" src="img/sw2.jpg" alt="" />
+                <span class="film-list-item-title"> Attack Of The Clones</span>
+                <p class="film-list-item-description">
+                  Following an assassination attempt on Senator Padmé Amidala,
+                  Jedi Knights Anakin Skywalker and Obi-Wan Kenobi investigate a
+                  mysterious plot that could change the galaxy forever.
+                </p>
+                <button class="film-list-item-button">Watch</button>
+              </div>
+              <div class="film-list-item">
+                <img class="film-list-item-img" src="img/sw3.jpg" alt="" />
+                <span class="film-list-item-title"> Revenge Of The Sith</span>
+                <p class="film-list-item-description">
+                  The evil Darth Sidious enacts his final plan for unlimited
+                  power -- and the heroic Jedi Anakin Skywalker must choose a
+                  side.
+                </p>
+                <button class="film-list-item-button">Watch</button>
+              </div>
+              <div class="film-list-item">
+                <img class="film-list-item-img" src="img/sw4.jpg" alt="" />
+                <span class="film-list-item-title"
+                  >Solo: A Star Wars Story</span
+                >
+                <p class="film-list-item-description">
+                  An all-new adventure with the most beloved scoundrel in the
+                  galaxy. Through a series of daring escapades deep within a
+                  dark and dangerous criminal underworld, Han Solo meets his
+                  mighty future copilot Chewbacca and encounters the notorious
+                  gambler Lando Calrissian, in a journey that will set the
+                  course of one of the Star Wars saga's most unlikely heroes.
+                </p>
+                <button class="film-list-item-button">Watch</button>
+              </div>
+              <div class="film-list-item">
+                <img class="film-list-item-img" src="img/sw5.jpg" alt="" />
+                <span class="film-list-item-title"
+                  >Rogue one: <br />
+                  A Star Wars Story</span
+                >
+                <p class="film-list-item-description">
+                  In a time of conflict, a group of unlikely heroes band
+                  together on a mission to steal the plans to the Death Star,
+                  the Empire's ultimate weapon of destruction.
+                </p>
+                <button class="film-list-item-button">Watch</button>
+              </div>
+              <div class="film-list-item">
+                <img class="film-list-item-img" src="img/sw6.jpg" alt="" />
+                <span class="film-list-item-title">A New Hope</span>
+                <p class="film-list-item-description">
+                  With the planet-destroying power of the Death Star, the Empire
+                  looks to cement its grip on the galaxy. Meanwhile, farm boy
+                  Luke Skywalker rises to face his destiny.
+                </p>
+                <button class="film-list-item-button">Watch</button>
+              </div>
+              <div class="film-list-item">
+                <img class="film-list-item-img" src="img/sw7.jpg" alt="" />
+                <span class="film-list-item-title"
+                  >The Empire Strikes Back</span
+                >
+                <p class="film-list-item-description">
+                  While the Death Star has been destroyed, the battle between
+                  the Empire and the Rebel Alliance rages on...and the evil
+                  Darth Vader continues his relentless search for Luke
+                  Skywalker.
+                </p>
+                <button class="film-list-item-button">Watch</button>
+              </div>
+              <div class="film-list-item">
+                <img class="film-list-item-img" src="img/sw8.jpg" alt="" />
+                <span class="film-list-item-title">Return Of The Jedi</span>
+                <p class="film-list-item-description">
+                  Luke Skywalker leads a mission to rescue his friend Han Solo
+                  from the clutches of Jabba the Hutt, while the Emperor seeks
+                  to destroy the Rebellion once and for all with a second
+                  dreaded Death Star.
+                </p>
+                <button class="film-list-item-button">Watch</button>
+              </div>
+              <div class="film-list-item">
+                <img class="film-list-item-img" src="img/sw9.jpg" alt="" />
+                <span class="film-list-item-title">The Force Awakens</span>
+                <p class="film-list-item-description">
+                  Thirty years after the Battle of Endor, a new threat has risen
+                  in the form of the First Order and the villainous Kylo Ren.
+                  Meanwhile, Rey, a young scavenger, discovers powers that will
+                  change her life -- and possibly save the galaxy.
+                </p>
+                <button class="film-list-item-button">Watch</button>
+              </div>
+              <div class="film-list-item">
+                <img class="film-list-item-img" src="img/sw10.jpg" alt="" />
+                <span class="film-list-item-title"> The Last Jedi</span>
+                <p class="film-list-item-description">
+                  Rey has found the legendary Luke Skywalker, hoping to be
+                  trained in the ways of the Force. Meanwhile, the First Order
+                  seeks to destroy the remnants of the Resistance and rule the
+                  galaxy unopposed.
+                </p>
+                <button class="film-list-item-button">Watch</button>
+              </div>
+              <div class="film-list-item">
+                <img class="film-list-item-img" src="img/sw11.jpg" alt="" />
+                <span class="film-list-item-title"> The Rise Of Skywalker</span>
+                <p class="film-list-item-description">
+                  A powerful enemy returns and Rey must face her destiny.
+                </p>
+                <button class="film-list-item-button">Watch</button>
+              </div>
+            </div>
+            <i class="fa-solid fa-chevron-right arrow"></i>
+          </div>
+        </div>
+        <div
+          class="featured-content"
+          style="
+            background: linear-gradient(
+                to bottom,
+                rgba(0, 0, 0, 0),
+                rgb(20, 20, 20)
+              ),
+              url(img/f-f-3.jpg);
+          "
+        >
+          <img
+            class="featured-title"
+            src="/img/f-t-1.png"
+            alt="featured film title"
+          />
+          <p class="featured-description">
+            When a young boy disappears, his mother, a police chief and his
+            friends must confront terrifying supernatural forces in order to get
+            him back.
+          </p>
+          <button class="featured-button">WATCH NOW</button>
+        </div>
+        <div class="film-list-container">
+          <h1 class="film-list-title">The Lord Of The Rings</h1>
+          <div class="film-list-wrapper">
+            <div class="film-list">
+              <div class="film-list-item">
+                <img class="film-list-item-img" src="img/lotr1.jpg" alt="" />
+                <span class="film-list-item-title">The Rings Of Power</span>
+                <p class="film-list-item-description">
+                  Epic drama set thousands of years before the events of J.R.R.
+                  Tolkien's 'The Hobbit' and 'The Lord of the Rings' follows an
+                  ensemble cast of characters, both familiar and new, as they
+                  confront the long-feared re-emergence of evil to Middle-earth.
+                </p>
+                <button class="film-list-item-button">Watch</button>
+              </div>
+              <div class="film-list-item">
+                <img class="film-list-item-img" src="img/lotr2.jpg" alt="" />
+                <span class="film-list-item-title"
+                  >The Hobbit: <br />
+                  An Unexpected Journey</span
+                >
+                <p class="film-list-item-description">
+                  A reluctant Hobbit, Bilbo Baggins, sets out to the Lonely
+                  Mountain with a spirited group of dwarves to reclaim their
+                  mountain home, and the gold within it from the dragon Smaug.
+                </p>
+                <button class="film-list-item-button">Watch</button>
+              </div>
+              <div class="film-list-item">
+                <img class="film-list-item-img" src="img/lotr3.jpg" alt="" />
+                <span class="film-list-item-title"
+                  >The Hobbit: <br />
+                  The Desolation of Smaug
+                </span>
+                <p class="film-list-item-description">
+                  The dwarves, along with Bilbo Baggins and Gandalf the Grey,
+                  continue their quest to reclaim Erebor, their homeland, from
+                  Smaug. Bilbo Baggins is in possession of a mysterious and
+                  magical ring.
+                </p>
+                <button class="film-list-item-button">Watch</button>
+              </div>
+              <div class="film-list-item">
+                <img class="film-list-item-img" src="img/lotr4.jpg" alt="" />
+                <span class="film-list-item-title"
+                  >The Hobbit: <br />
+                  The Battle of the Five Armies
+                </span>
+                <p class="film-list-item-description">
+                  Bilbo and company are forced to engage in a war against an
+                  array of combatants and keep the Lonely Mountain from falling
+                  into the hands of a rising darkness.
+                </p>
+                <button class="film-list-item-button">Watch</button>
+              </div>
+              <div class="film-list-item">
+                <img class="film-list-item-img" src="img/lotr5.jpg" alt="" />
+                <span class="film-list-item-title"
+                  >The Fellowship of the Ring</span
+                >
+                <p class="film-list-item-description">
+                  A meek Hobbit from the Shire and eight companions set out on a
+                  journey to destroy the powerful One Ring and save Middle-earth
+                  from the Dark Lord Sauron.
+                </p>
+                <button class="film-list-item-button">Watch</button>
+              </div>
+              <div class="film-list-item">
+                <img class="film-list-item-img" src="img/lotr6.jpg" alt="" />
+                <span class="film-list-item-title">The Two Towers</span>
+                <p class="film-list-item-description">
+                  While Frodo and Sam edge closer to Mordor with the help of the
+                  shifty Gollum, the divided fellowship makes a stand against
+                  Sauron's new ally, Saruman, and his hordes of Isengard.
+                </p>
+                <button class="film-list-item-button">Watch</button>
+              </div>
+              <div class="film-list-item">
+                <img class="film-list-item-img" src="img/lotr7.jpg" alt="" />
+                <span class="film-list-item-title">The Return of the King</span>
+                <p class="film-list-item-description">
+                  Gandalf and Aragorn lead the World of Men against Sauron's
+                  army to draw his gaze from Frodo and Sam as they approach
+                  Mount Doom with the One Ring.
+                </p>
+                <button class="film-list-item-button">Watch</button>
+              </div>
+            </div>
+            <i class="fa-solid fa-chevron-right arrow"></i>
+          </div>
+        </div>
+        <div class="film-list-container">
+          <h1 class="film-list-title">The Marvel Movie Collection</h1>
+          <div class="film-list-wrapper">
+            <div class="film-list">
+              <div class="film-list-item">
+                <img class="film-list-item-img" src="img/mcu1.jpg" alt="" />
+                <span class="film-list-item-title"
+                  >Captain America: The First Avenger</span
+                >
+                <p class="film-list-item-description">
+                  Steve Rogers, a rejected military soldier, transforms into
+                  Captain America after taking a dose of a "Super-Soldier
+                  serum". But being Captain America comes at a price as he
+                  attempts to take down a warmonger and a terrorist
+                  organization.
+                </p>
+                <button class="film-list-item-button">Watch</button>
+              </div>
+              <div class="film-list-item">
+                <img class="film-list-item-img" src="img/mcu2.jpg" alt="" />
+                <span class="film-list-item-title">Iron Man</span>
+                <p class="film-list-item-description">
+                  After being held captive in an Afghan cave, billionaire
+                  engineer Tony Stark creates a unique weaponized suit of armor
+                  to fight evil.
+                </p>
+                <button class="film-list-item-button">Watch</button>
+              </div>
+              <div class="film-list-item">
+                <img class="film-list-item-img" src="img/mcu3.jpg" alt="" />
+                <span class="film-list-item-title">The Incredible Hulk</span>
+                <p class="film-list-item-description">
+                  Bruce Banner, a scientist on the run from the U.S. Government,
+                  must find a cure for the monster he turns into whenever he
+                  loses his temper.
+                </p>
+                <button class="film-list-item-button">Watch</button>
+              </div>
+              <div class="film-list-item">
+                <img class="film-list-item-img" src="img/mcu4.jpg" alt="" />
+                <span class="film-list-item-title">Iron Man 2</span>
+                <p class="film-list-item-description">
+                  With the world now aware of his identity as Iron Man, Tony
+                  Stark must contend with both his declining health and a
+                  vengeful mad man with ties to his father's legacy.
+                </p>
+                <button class="film-list-item-button">Watch</button>
+              </div>
+              <div class="film-list-item">
+                <img class="film-list-item-img" src="img/mcu5.jpg" alt="" />
+                <span class="film-list-item-title">Thor</span>
+                <p class="film-list-item-description">
+                  The powerful but arrogant god Thor is cast out of Asgard to
+                  live amongst humans in Midgard (Earth), where he soon becomes
+                  one of their finest defenders.
+                </p>
+                <button class="film-list-item-button">Watch</button>
+              </div>
+              <div class="film-list-item">
+                <img class="film-list-item-img" src="img/mcu6.jpg" alt="" />
+                <span class="film-list-item-title">The Avengers</span>
+                <p class="film-list-item-description">
+                  Earth's mightiest heroes must come together and learn to fight
+                  as a team if they are going to stop the mischievous Loki and
+                  his alien army from enslaving humanity.
+                </p>
+                <button class="film-list-item-button">Watch</button>
+              </div>
+              <div class="film-list-item">
+                <img class="film-list-item-img" src="img/mcu7.jpg" alt="" />
+                <span class="film-list-item-title">Iron Man 3</span>
+                <p class="film-list-item-description">
+                  When Tony Stark's world is torn apart by a formidable
+                  terrorist called the Mandarin, he starts an odyssey of
+                  rebuilding and retribution.
+                </p>
+                <button class="film-list-item-button">Watch</button>
+              </div>
+              <div class="film-list-item">
+                <img class="film-list-item-img" src="img/mcu8.jpg" alt="" />
+                <span class="film-list-item-title">Thor: The Dark World</span>
+                <p class="film-list-item-description">
+                  When the Dark Elves attempt to plunge the universe into
+                  darkness, Thor must embark on a perilous and personal journey
+                  that will reunite him with doctor Jane Foster.
+                </p>
+                <button class="film-list-item-button">Watch</button>
+              </div>
+              <div class="film-list-item">
+                <img class="film-list-item-img" src="img/mcu9.jpg" alt="" />
+                <span class="film-list-item-title"
+                  >Captain America: The Winter Soldier</span
+                >
+                <p class="film-list-item-description">
+                  As Steve Rogers struggles to embrace his role in the modern
+                  world, he teams up with a fellow Avenger and S.H.I.E.L.D
+                  agent, Black Widow, to battle a new threat from history: an
+                  assassin known as the Winter Soldier.
+                </p>
+                <button class="film-list-item-button">Watch</button>
+              </div>
+              <div class="film-list-item">
+                <img class="film-list-item-img" src="img/mcu10.jpg" alt="" />
+                <span class="film-list-item-title"
+                  >Guardians of the Galaxy</span
+                >
+                <p class="film-list-item-description">
+                  A group of intergalactic criminals must pull together to stop
+                  a fanatical warrior with plans to purge the universe.
+                </p>
+                <button class="film-list-item-button">Watch</button>
+              </div>
+              <div class="film-list-item">
+                <img class="film-list-item-img" src="img/mcu11.jpg" alt="" />
+                <span class="film-list-item-title"
+                  >Guardians of the Galaxy Vol. 2</span
+                >
+                <p class="film-list-item-description">
+                  The Guardians struggle to keep together as a team while
+                  dealing with their personal family issues, notably Star-Lord's
+                  encounter with his father the ambitious celestial being Ego.
+                </p>
+                <button class="film-list-item-button">Watch</button>
+              </div>
+              <div class="film-list-item">
+                <img class="film-list-item-img" src="img/mcu12.jpg" alt="" />
+                <span class="film-list-item-title"
+                  >Avengers: Age of Ultron</span
+                >
+                <p class="film-list-item-description">
+                  When Tony Stark and Bruce Banner try to jump-start a dormant
+                  peacekeeping program called Ultron, things go horribly wrong
+                  and it's up to Earth's mightiest heroes to stop the villainous
+                  Ultron from enacting his terrible plan.
+                </p>
+                <button class="film-list-item-button">Watch</button>
+              </div>
+              <div class="film-list-item">
+                <img class="film-list-item-img" src="img/mcu13.jpg" alt="" />
+                <span class="film-list-item-title">Ant-Man</span>
+                <p class="film-list-item-description">
+                  Armed with a super-suit with the astonishing ability to shrink
+                  in scale but increase in strength, cat burglar Scott Lang must
+                  embrace his inner hero and help his mentor, Dr. Hank Pym, pull
+                  off a plan that will save the world.
+                </p>
+                <button class="film-list-item-button">Watch</button>
+              </div>
+              <div class="film-list-item">
+                <img class="film-list-item-img" src="img/mcu14.jpg" alt="" />
+                <span class="film-list-item-title"
+                  >Captain America: Civil War</span
+                >
+                <p class="film-list-item-description">
+                  Political involvement in the Avengers' affairs causes a rift
+                  between Captain America and Iron Man.
+                </p>
+                <button class="film-list-item-button">Watch</button>
+              </div>
+              <div class="film-list-item">
+                <img class="film-list-item-img" src="img/mcu15.jpg" alt="" />
+                <span class="film-list-item-title">Spider-Man: Homecoming</span>
+                <p class="film-list-item-description">
+                  Peter Parker balances his life as an ordinary high school
+                  student in Queens with his superhero alter-ego Spider-Man, and
+                  finds himself on the trail of a new menace prowling the skies
+                  of New York City.
+                </p>
+                <button class="film-list-item-button">Watch</button>
+              </div>
+              <div class="film-list-item">
+                <img class="film-list-item-img" src="img/mcu16.jpg" alt="" />
+                <span class="film-list-item-title">Doctor Strange</span>
+                <p class="film-list-item-description">
+                  While on a journey of physical and spiritual healing, a
+                  brilliant neurosurgeon is drawn into the world of the mystic
+                  arts.
+                </p>
+                <button class="film-list-item-button">Watch</button>
+              </div>
+              <div class="film-list-item">
+                <img class="film-list-item-img" src="img/mcu17.jpg" alt="" />
+                <span class="film-list-item-title">Thor: Ragnarok</span>
+                <p class="film-list-item-description">
+                  Imprisoned on the planet Sakaar, Thor must race against time
+                  to return to Asgard and stop Ragnarök, the destruction of his
+                  world, at the hands of the powerful and ruthless villain Hela.
+                </p>
+                <button class="film-list-item-button">Watch</button>
+              </div>
+              <div class="film-list-item">
+                <img class="film-list-item-img" src="img/mcu18.jpg" alt="" />
+                <span class="film-list-item-title">Black Panther</span>
+                <p class="film-list-item-description">
+                  T'Challa, heir to the hidden but advanced kingdom of Wakanda,
+                  must step forward to lead his people into a new future and
+                  must confront a challenger from his country's past.
+                </p>
+                <button class="film-list-item-button">Watch</button>
+              </div>
+              <div class="film-list-item">
+                <img class="film-list-item-img" src="img/mcu19.jpg" alt="" />
+                <span class="film-list-item-title">Avengers: Infinity War</span>
+                <p class="film-list-item-description">
+                  The Avengers and their allies must be willing to sacrifice all
+                  in an attempt to defeat the powerful Thanos before his blitz
+                  of devastation and ruin puts an end to the universe.
+                </p>
+                <button class="film-list-item-button">Watch</button>
+              </div>
+              <div class="film-list-item">
+                <img class="film-list-item-img" src="img/mcu20.jpg" alt="" />
+                <span class="film-list-item-title">Ant-Man and the Wasp</span>
+                <p class="film-list-item-description">
+                  As Scott Lang balances being both a superhero and a father,
+                  Hope van Dyne and Dr. Hank Pym present an urgent new mission
+                  that finds the Ant-Man fighting alongside The Wasp to uncover
+                  secrets from their past.
+                </p>
+                <button class="film-list-item-button">Watch</button>
+              </div>
+              <div class="film-list-item">
+                <img class="film-list-item-img" src="img/mcu21.jpg" alt="" />
+                <span class="film-list-item-title">Captain Marvel</span>
+                <p class="film-list-item-description">
+                  Carol Danvers becomes one of the universe's most powerful
+                  heroes when Earth is caught in the middle of a galactic war
+                  between two alien races.
+                </p>
+                <button class="film-list-item-button">Watch</button>
+              </div>
+            </div>
+            <i class="fa-solid fa-chevron-right arrow"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
